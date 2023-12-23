@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial;
+}
+@keyframes box{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 800px;
+        height: 500px;
+    }
+}
+@keyframes headcircle{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+    }
+}
+@keyframes headinnercircle{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+    }
+}
+@keyframes eyeoutercircle{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 20px;
+        height: 46px;
+    }
+}
+@keyframes eye{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 8px;
+        height: 22px;
+    }
+}
+@keyframes innereye{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 2.4px;
+        height: 9px;
+    }
+}
+@keyframes rednose{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 13px;
+        height: 13px;
+    }
+}
+@keyframes whitedotinnose{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 4px;
+        height: 4px;
+    }
+}
+@keyframes blackline{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 0.1px;
+        height: 40px;
+    }
+}
+@keyframes smileleft{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 50px;
+        height: 45px;
+    }
+}
+@keyframes collar{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 130px;
+        height: 12px;
+    }
+}
+@keyframes collarbell{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 15px;
+        height: 15px;
+    }
+}
+@keyframes bodybag{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+    }
+}
+@keyframes pcoketbackgroundT-shirt{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+    }
+}
+@keyframes pocket-half{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 45px;
+        height: 45px;
+    }
+}
+@keyframes handi{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 30px;
+        height: 100px;
+    }
+}
+@keyframes fist{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 30px;
+        height: 30px;
+    }
+}
+@keyframes right-hand{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 100px;
+        height: 30px;
+    }
+}
+@keyframes right-fist{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 30px;
+        height: 30px;
+    }
+}
+@keyframes anotherblackline{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 0.1px;
+        height: 48px;
+    }
+}
+@keyframes foot{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 100px;
+        height: 25px;
+    }
+}
+@keyframes footright{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 100px;
+        height: 25px;
+    }
+}
+@keyframes pocket-half{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 45px;
+        height: 45px;
+    }
+}
+body{
+    background: black;
+}
+.home{
+    width: 100%;
+}
+.box{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    margin: auto;
+}
+.headcircle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(21, 137, 226);
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    position: relative;
+    border: 1px solid black;
+    animation: headcircle 10s 0s 1 linear;
+
+}
+.headinnercircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left:25px;
+    border: 1px solid black;
+    animation: headinnercircle 10s 0s 1 linear;
+}
+.eyeoutercircle{
+    width: 20px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: -25px;
+    left: 52px;
+    animation: eyeoutercircle 10s 0s 1 linear;
+}
+.eyeoutercircle2{
+    width: 20px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: -25px;
+    right: 56px;
+    animation: eyeoutercircle 10s 0s 1 linear;
+}
+.eye{
+    width: 8px;
+    height: 22px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 6px;
+    animation: eye 10s 0s 1 linear;
+}
+.innereye{
+    width: 2.4px;
+    height: 9;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 4;
+    left: 1.9px;
+    animation: innereye 10s 0s 1 linear;
+}
+.rednose{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black;
+    position: relative;
+    top: 16px;
+    left: 66px;
+    animation: rednose 10s 0s 1 linear;
+}
+.whitedotinnose{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 1px;
+    animation: whitedotinnose 10s 0s linear;
+}
+.blackline{
+    width: 0.1px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+    left: 73px;
+    animation: blackline 10s 0s linear;
+}
+.smileleft{
+    width: 50px;
+    height: 45px;
+    background-color: red;
+    border: 1px solid black;
+    border-right: none;
+    position: absolute;
+    left: 24px;
+    top: 70px;
+    border-radius: 0 0 0 100%;
+    animation: smileleft 10s 0s 1 linear;
+}
+.smileright{
+    width: 50px;
+    height: 45px;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    border-left: none;
+    left: 74px;
+    top: 70px;
+    border-radius: 0 0 100% 0;
+    animation: smilerleft 10s 0s 1 linear;
+}
+.collar{   
+    width: 130px;
+    height: 12px;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    top: -7px;
+    left: 35px;
+    border-radius: 20px;
+    animation: collar 10s 0s 1 linear;
+}
+.collarbell{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255 220 61);
+    border: 1px solid black;
+    position: absolute;
+    left: 42%;
+    animation: collarbell 10s 0s 1 linear;
+}
+.bodybag{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(21, 137, 226);
+    top: 230px;
+    left: 300px;
+    border-radius: 30px;
+    border: 1px solid black;
+    animation: bodybag 10s 0s 1 linear;
+}
+.pcoketbackgroundT-shirt{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    left: 25px;
+    animation: pcoketbackgroundT-shirt 10s 0s 1 linear;
+}
+.pocket-half{
+    width: 45px;
+    height: 45px;
+    border-radius: 0 0 0 100%;
+    position: absolute;
+    border: 1px solid black;
+    top: 90px;
+    left: 30px;
+    border-right: none;
+    animation: pocket-half 10s 0s 1 linear;
+}
+.pocket-full{
+    width: 45px;
+    height: 45px;
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    border: 1px solid black;
+    top: 90px;
+    left: 76px;
+    border-left: none;
+    animation: pocket-helf 10s 0s 1 linear;
+}
+.hand{
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(21, 137, 226);
+    border: 1px solid black;
+    border-radius: 40px;
+    top: 20px;
+    left: -10px;
+    animation: handi 10s 0s 1 linear;
+}
+.fist{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 40px;
+    bottom: -5px;
+    animation: fist 10s 0s 1 linear;
+}
+.right-hand{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(21, 137, 226);
+    border: 1px solid black;
+    border-radius: 40px;
+    top: 20px;
+    right: -85px;
+    animation: right-hand 10s 0s 1 linear;
+}
+.right-fist{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 40px;
+    right: -5px;
+    animation: right-fist 10s 0s 1 linear;
+}
+.anotherblackline{
+    width: 0.1px;
+    height: 48px;
+    border: 1px solid black;
+    position: absolute;
+    top: 151px;
+    left: 100px; 
+    animation: anotherblackline 10s 0s 1 linear;
+}
+.foot{
+    width: 100px;
+    height:25px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top: 187px;
+    border-radius: 40px;
+    animation: foot 10s 0s 1 linear;
+}
+.foot-right{
+    width: 100px;
+    height:25px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top: 187px;
+    border-radius: 40px;
+    left: 101px;
+    animation: footright 10s 0s 1 linear;
+}
